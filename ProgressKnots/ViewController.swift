@@ -49,10 +49,11 @@ class ViewController: UIViewController {
     }
     
     func setup(){
-        viewKnot = KnotProgressView(frame: CGRect(x: 20, y: 250, width: 250, height: 50))
-//        viewKnot?.knotCount = 4
-//        viewKnot?.htKnots = 30
-//        viewKnot?.isBorder = true
+        viewKnot = KnotProgressView(frame: CGRect(x: 20, y: 250, width: UIScreen.main.bounds.width - 40, height: 50))
+        viewKnot?.knotCount = 4
+        viewKnot?.htKnots = 30
+        viewKnot?.isBorder = true
+        
         viewKnot?.prepareView()
         
         self.view.addSubview(viewKnot!)
