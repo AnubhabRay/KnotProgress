@@ -2,6 +2,11 @@
 It is a progress bar which includes states
 
 
+
+![](https://github.com/AnubhabRay/KnotProgress/blob/master/Knot.gif)
+
+
+
 This is a sample project showing the use of the KnotProgress view.
 
 To use the progress view. Please follow the following steps:
